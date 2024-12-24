@@ -1,17 +1,20 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "duobix/gridify",
+    "description": "This is my package gridify",
     "keywords": [
-        ":vendor_name",
+        "php",
         "laravel",
-        ":package_slug"
+        "Gridify",
+        "Duobix",
+        "Datatable",
+        "table"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/duobixit/gridify",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Abdennour Tadjer",
+            "email": "abdennour.tadjer@gmail.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +38,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Duobix\\Gridify\\": "src/",
+            "Duobix\\Gridify\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "Duobix\\Gridify\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -63,10 +66,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Duobix\\Gridify\\GridifyServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "Gridify": "Duobix\\Gridify\\Facades\\Gridify"
             }
         }
     },
